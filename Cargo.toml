@@ -1,0 +1,19 @@
+[package]
+name = "parse-color"
+authors = ["Mincong Lu <mintlux667@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+readme = "README.md"
+repository = "https://github.com/mintlu8/parse-color"
+description = """
+A crate that provides conversion from CSS color names 
+or TailwindCSS classes to RGBA colors, in the form of [u8; 4].
+"""
+keywords = ["color", "color-string", "convert"]
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default=["tailwind"]
+# Allow parsing of TailwindCSS classes.
+tailwind=[]
