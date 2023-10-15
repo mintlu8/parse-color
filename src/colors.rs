@@ -38,7 +38,7 @@ pub fn parse_flat_lower(name: &str) -> Option<[u8; 4]> {
         "cornflowerblue" => 0x6495edff,
         "cornsilk" => 0xfff8dcff,
         "crimson" => 0xdc143cff,
-        "cyanff" => 0x00ffff,
+        "cyan" => 0x00ffffff,
         "darkblue" => 0x00008bff,
         "darkcyan" => 0x008b8bff,
         "darkgoldenrod" => 0xb8860bff,
